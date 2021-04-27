@@ -1,0 +1,16 @@
+<!--pages/application/exam/examrank.wxml-->
+
+<scroll-view scroll-y="true"  class='contain'>
+<view>
+  <view class='te'><text>排行榜</text></view>
+  <view wx:for="{{rank}}">
+   <view class='rank'>
+     <view class='te1'><text>{{item.username}}</text> </view>
+    <view class='te2'>
+     <block wx:if="{{item.grade>0}}"><text >{{item.grade}}分</text></block>
+     <block wx:elif="{{item.grade==0}}"><text >未答题</text></block>
+    </view>
+    </view> 
+  </view>
+</view>
+</scroll-view >

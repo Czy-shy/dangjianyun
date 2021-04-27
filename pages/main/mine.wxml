@@ -1,0 +1,71 @@
+<!--pages/mine/mine.wxml-->
+
+<view class="view_contain">
+
+  <view class="view_1">
+    <view class="view_image_text">
+      <open-data type="userAvatarUrl" class="image_radius"></open-data>
+    </view>
+    <view class="con">
+      <text class='name'>{{userInfo.username}}</text>
+      <text class='cont'>{{userInfo.content}}</text>
+    </view>
+  </view>
+
+ 
+ <view class="view_2">
+
+<view class="view_tupianwenzi">
+  <image class="image_tupian" src="http://123.xydj.xyz/shoucang1.png"></image>
+  <text class="text_saoyisao">我的收藏</text>
+</view>
+<view class="view_tupianwenzi">
+  <image class="image_tupian" src="http://123.xydj.xyz/pinglun1.png"></image>
+  <text class="text_saoyisao">我的评论</text>
+</view>
+<view class="view_tupianwenzi">
+  <image class="image_tupian" src="http://123.xydj.xyz/tongzhi1.png"></image>
+  <text class="text_saoyisao">通知中心</text>
+</view>
+<view class="view_tupianwenzi">
+  <image class="image_tupian" src="http://123.xydj.xyz/lishi1.png"></image>
+  <text class="text_saoyisao">浏览历史</text>
+</view>
+ </view>
+
+ 
+  <view class="view_3">
+    <view class="list-item">
+      <image class="item-image" src="http://123.xydj.xyz/mingpian.png"></image>
+      <text class="item-text">我的名片</text>
+      <image class="image-jiantou" src="http://123.xydj.xyz/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="http://123.xydj.xyz/jifen.png"></image>
+      <text class="item-text">积分排行</text>
+      <image class="image-jiantou" src="http://123.xydj.xyz/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="http://123.xydj.xyz/fazhan.png"></image>
+      <text class="item-text">党员发展</text>
+      <image class="image-jiantou" src="http://123.xydj.xyz/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="http://123.xydj.xyz/chengnuo.png"></image>
+      <text class="item-text">党员承诺</text>
+      <image class="image-jiantou" src="http://123.xydj.xyz/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+    <view class="list-item">
+      <image class="item-image" src="http://123.xydj.xyz/gengxin.png"></image>
+      <text class="item-text">版本更新</text>
+      <image class="image-jiantou" src="http://123.xydj.xyz/jiantou.png"></image>
+    </view>
+    <view class="line"></view>
+
+  </view>
+
+</view>

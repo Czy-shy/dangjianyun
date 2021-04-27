@@ -1,0 +1,3 @@
+<!--pages/welcome/welcome.wxml-->
+
+<cover-image class='wel' src='http://123.xydj.xyz/welcome.png'></cover-image>

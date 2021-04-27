@@ -1,0 +1,13 @@
+<!--pages/application/exam/exam.wxml-->
+<view class='contain'>
+<view class='view_contain'>
+ <!-- <text>2021四月理论测试</text> -->
+ <image src="http://123.xydj.xyz/dangshidati.jpg"  class='img'></image>
+ <button class='btn1' bindtap='goexam'>进入答题</button>
+ <button class='btn2' bindtap='gorank'>查看排名</button>
+</view>
+
+ 
+ 
+<!-- <view class='view_contain' ></view> -->
+</view>

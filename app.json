@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/login/login",
+    "pages/main/main",
+    "pages/main/application",
+    "pages/application/exam/exam",
+    "pages/application/exam/exampage",
+    "pages/application/exam/examresult",
+    "pages/application/exam/examrank",
+    "pages/main/mine",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text":"首页",
+        "pagePath":"pages/main/main"
+       
+      },
+      {
+        "text":"应用",
+        "pagePath":"pages/main/application"
+        
+      },
+      {
+        "text":"我的",
+        "pagePath":"pages/main/mine"
+         
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "信工党建",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+   "kbone": true,
+   "weui": true
+  }
+}

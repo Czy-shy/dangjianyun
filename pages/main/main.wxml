@@ -1,0 +1,15 @@
+<!--pages/main/main.wxml-->
+
+<view>
+ <!--轮播图-->
+  <swiper class='swi' indicator-dots='false' autoplay='true' interval='5000'  duration='1000' circular='true'>
+       <block wx:for="{{movies}}" wx:for-index="index">
+         <swiper-item>
+           <image src='{{item.url}}' class='ima'></image>
+         </swiper-item>
+        </block>
+  </swiper>
+</view>
+
+
+

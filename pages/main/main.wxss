@@ -1,0 +1,8 @@
+/* pages/main/main.wxss */
+
+.swi{
+  height:400rpx;
+}
+.ima{
+   width:100%
+}

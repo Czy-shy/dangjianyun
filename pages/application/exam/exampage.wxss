@@ -1,0 +1,26 @@
+/* pages/application/exam/exampage.wxss */
+
+.title{
+  margin-top:20rpx;
+  color:green;
+}
+.exam-title{
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+}
+
+.radio{
+  padding:20rpx;
+  display:block;
+}
+
+.exam-item{
+  color:#919191;
+}
+
+.exam-btn{
+  width:90%;
+  position:fixed;
+  left:5%;
+  bottom:100rpx;
+}

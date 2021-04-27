@@ -1,0 +1,10 @@
+<!--pages/application/exam/examresult.wxml-->
+<!-- 考试结果页面 -->
+<!-- 分数 -->
+<view class='grade'>
+    <text >{{grade}}</text>
+</view>
+<!-- 描述和按钮 -->
+<view class='contain'>
+    <button bindtap='queryResult'>退出</button>
+</view>

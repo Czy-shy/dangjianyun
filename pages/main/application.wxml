@@ -1,0 +1,76 @@
+<!--pages/application/application.wxml-->
+<view class='contain'> 
+<view class='view_contain'> 
+<!-- 党员应用 -->
+<view  class="text1"> 
+<text >党建应用</text>
+</view>
+<view class="view_list">   
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/huike.png" class="swiper_head" mode="aspectFit" /> 三会一课        
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/dangri.png" class="swiper_head" mode="aspectFit" /> 主题党日      
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/zhibu.png" class="swiper_head" mode="aspectFit" /> 我的支部        
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="/pages/application/exam/exam" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/kaoshi.png" class="swiper_head" mode="aspectFit" /> 专题测试        
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/study.png" class="swiper_head" mode="aspectFit" /> 理论学习        
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/dangfei.png" class="swiper_head" mode="aspectFit" /> 缴纳党费        
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/zhiyuan.png" class="swiper_head" mode="aspectFit" /> 
+    <text>志愿服务</text>       
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/minzu.png" class="swiper_head" mode="aspectFit" /> 民主评议        
+    </navigator>      
+  </view>   
+  </view>
+  <view class="view_item">      
+  <view class="view_type">        
+    <navigator url="#" open-type="navigate" class="navigate_item">          
+    <image src="http://123.xydj.xyz/tanxin.png" class="swiper_head" mode="aspectFit" /> 谈心谈话        
+    </navigator>      
+  </view>   
+  </view>
+</view>
+
+ </view>
+</view>

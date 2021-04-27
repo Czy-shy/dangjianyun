@@ -1,0 +1,68 @@
+/* pages/application/application.wxss */
+
+page {
+  width: 100%;
+  height: 100%;
+  background-color:#f1eee9;
+}
+
+.view_contain{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.text1{
+   text-align: center;
+   font-size:40rpx;
+   line-height: 3em;
+   color:#b38d8a;
+}
+
+.view_list {  
+  /* width: 95%;  */
+  padding-left: 3%; 
+  padding-right: 3%;
+  height: 100%;  /* margin-top: 20rpx; */  
+  column-count: 3;  /* 设置或检索对象的列与列之间的间隙为2px */  
+  column-gap: 10rpx;
+  background-color:white;
+}
+
+.view_item {  
+  width: 100%;  
+  height: 250rpx;  
+  position: relative;  
+  display: inline-block;  /* display: flex; */  
+  flex-direction: column;  
+  align-items: center;  
+  justify-content: center;
+}
+
+.view_type {  
+  width: 100%;  
+  height: 100%;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center; 
+  justify-content: center;
+  font-size:30rpx;
+}
+
+.navigate_item {  
+  width: 130rpx;  
+  height: 130rpx; 
+  padding: 30rpx; 
+  /* background-color: #2880fe;   */
+  color: black;  
+  border-radius: 20rpx;  
+  display: flex;  
+  flex-direction: column;  
+  align-items: center;
+  }
+
+  .swiper_head{
+    width:103rpx;
+    height:103rpx;
+  }
+ 

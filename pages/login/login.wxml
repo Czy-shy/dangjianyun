@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+
+<!--登录背景图-->
+<cover-image src="http://123.xydj.xyz/login.png" class="logi"></cover-image>
+
+<!--输入框-->
+<view class='background'>
+  <view class='first'>
+    <input id='phonep' placeholder="手机号" placeholder-class="plas" class='inputs' type='number' bindinput="phoneinput"></input>
+  </view>
+  <view class='second' >
+    <input id='password' placeholder="登录密码" placeholder-class="plas" class='inputs' type='password' bindinput="passwordinput"></input>
+  </view>
+</view>
+
+<!--登录按钮-->
+<view id='btn' class='click' bindtap='login'>登录</view>
+
+<text class="copyright">© 安徽中医药大学医药信息工程学院党委</text> 

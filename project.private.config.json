@@ -1,0 +1,78 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/mine",
+          "pathName": "pages/main/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/mine",
+          "pathName": "pages/main/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/application",
+          "pathName": "pages/main/application",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/application/exam/exampage",
+          "pathName": "pages/application/exam/exampage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/application/exam/examdetail",
+          "pathName": "pages/application/exam/examdetail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/application/exam/exam",
+          "pathName": "pages/application/exam/exam",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/application/exam/examresult",
+          "pathName": "pages/application/exam/examresult",
+          "query": "grade=88",
+          "scene": null
+        },
+        {
+          "name": "pages/application/exam/examresult",
+          "pathName": "pages/application/exam/examresult",
+          "query": "grade=88",
+          "scene": null
+        },
+        {
+          "name": "pages/application/exam/examrank",
+          "pathName": "pages/application/exam/examrank",
+          "query": " ",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

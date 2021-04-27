@@ -1,0 +1,17 @@
+/* pages/application/exam/examresult.wxss */
+
+ 
+
+.grade{
+  color:gold;
+  font-size:300rpx;
+  text-align: center;
+  padding-top:100rpx;
+  top:100rpx;
+}
+ 
+button{
+  margin-top:250rpx;
+  margin-left: 30rpx;
+  margin-right:30rpx;
+}

@@ -1,0 +1,45 @@
+<!--pages/application/exam/exampage.wxml-->
+<view class='content'>
+  <!-- 考题 -->
+<block wx:if="{{datas[index].kind==0}}">
+  <text class='title'>【单选题】</text>
+  <view class='exam-title'>{{index+1}}. {{datas[index].title}}</view>
+<!-- 单选按钮 -->
+  <radio-group bindchange='radioChange'>
+  <!-- 每一个选项 -->
+  <label class='radio' >
+      <radio value='A' checked="{{checked}}"></radio><text class='exam-item'>A、{{datas[index].option1}}</text>
+  </label>
+  <label class='radio'>
+      <radio value='B' checked="{{checked}}"></radio><text class='exam-item'>B、{{datas[index].option2}}</text>
+  </label>
+  <label class='radio'>
+      <radio value='C' checked="{{checked}}"></radio><text class='exam-item'>C、{{datas[index].option3}}</text>
+  </label>
+  <label class='radio'>
+      <radio value='D' checked="{{checked}}"></radio><text class='exam-item'>D、{{datas[index].option4}}</text>
+  </label>
+</radio-group>
+</block>
+
+<block wx:elif="{{datas[index].kind==1}}">
+  <text class='title'>【多选题】</text>
+  <view class='exam-title'>{{index+1}}. {{datas[index].title}}</view>
+  <checkbox-group bindchange="checkboxChange">
+    <label class='radio'>
+      <checkbox value='A' checked="{{checked}}"></checkbox><text class='exam-item'>A、{{datas[index].option1}}</text>
+    </label>
+    <label class='radio'>
+      <checkbox value='B' checked="{{checked}}"></checkbox><text class='exam-item'>B、{{datas[index].option2}}</text>
+    </label>
+    <label class='radio'>
+      <checkbox value='C' checked="{{checked}}"></checkbox><text class='exam-item'>C、{{datas[index].option3}}</text>
+    </label>
+    <label class='radio'>
+      <checkbox value='D' checked="{{checked}}"></checkbox><text class='exam-item'>D、{{datas[index].option4}}</text>
+    </label>
+  </checkbox-group>
+</block>
+</view>
+
+<button class='exam-btn' bindtap='exam'>下一题</button>
